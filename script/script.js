@@ -29,7 +29,7 @@ fetch(url)
     if (data.current.is_day === 1) {
       dayIcon.src = './assets/Ellipse 30.png';
     } else if (data.current.is_day === 0) {
-      dayIcon.src = './assets/group 1214 (1).png';
+      dayIcon.src = './assets/Group 1214 (1).png';
     }
 
     degrees.textContent = `${data.current.temperature_2m}°`;
