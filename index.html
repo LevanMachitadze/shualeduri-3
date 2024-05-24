@@ -29,32 +29,38 @@
       <div class="head"><h1>Weather API</h1></div>
       <div class="mainContainer">
         <div class="main">
-          <div>
-            <div>
-              <p></p>
-              <p></p>
+          <div class="main-up">
+            <div class="location">
+              <div class="location-up">
+                <img src="./assets/map.png" alt="map" />
+                <p id="latitude"></p>
+              </div>
+              <div class="location-down"><p id="longitude"></p></div>
             </div>
             <div id="dayNight"></div>
           </div>
-          <div>
+          <div class="main-middle">
             <div id="climatIcon"></div>
             <div id="degrees"></div>
           </div>
-          <div>
-            <div id="falengate"></div>
-            <div id="windSpeed"></div>
+          <div class="main-down">
+            <div id="farengate"></div>
+            <div class="wind">
+              <img src="./assets/noun-wind-4507827 1.png" alt="" />
+              <div id="windSpeed"></div>
+            </div>
           </div>
         </div>
       </div>
     </main>
     <footer>
-      <div class="footer"><span>,</span></div>
+      <div class="footer"><span>‹</span></div>
       <div class="footer"><span>1</span></div>
       <div class="footer"><span>2</span></div>
       <div class="footer"><span>3</span></div>
       <div class="footer"><span>...</span></div>
       <div class="footer"><span>10</span></div>
-      <div class="footer"><span>.</span></div>
+      <div class="footer"><span>›</span></div>
     </footer>
     <script src="./script/script.js"></script>
   </body>
